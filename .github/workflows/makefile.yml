@@ -43,7 +43,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/glboxed_max/android_kernel_mtk6893_resukisu android-kernel
+        git clone https://github.com/glboxed-max/android_kernel_mtk6893_resukisu android-kernel
         cd android-kernel
 
 
